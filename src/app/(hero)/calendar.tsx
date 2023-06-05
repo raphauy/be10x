@@ -61,7 +61,7 @@ function arrowsSection() {
     return (
         <div className="flex flex-col gap-1 p-1">
             <p className='flex gap-2 text-lg text-white'>
-                <FaArrowCircleRight size={30} className="mt-[2px]" />
+                <FaArrowCircleRight size={25} className="mt-[2px]" />
                 <span>Get <span className="text-orange-be10x">certified by be10x</span> to highlight your AI tool capabilities in your resume</span>
             </p>
             <p className='flex gap-2 text-lg text-white'>
