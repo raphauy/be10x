@@ -1,10 +1,23 @@
 import Image from 'next/image'
-import Hero from './hero'
+import Hero from './(hero)/hero'
+import Checkboxes from './(checkboxes)/checkboxes'
+import Divider from './divider'
+import Images from './(images)/images'
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between min-h-screen">
+    <main className="flex flex-col items-center justify-between min-h-screen bg-porcelain-be10x">
       <Hero />
+      
+      <Checkboxes />
+
+      <Divider />
+
+      <Images />
+      
+      <Divider />
+
+      <div className='mb-96'></div>
     </main>
   )
 }
