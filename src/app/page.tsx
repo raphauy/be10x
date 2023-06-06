@@ -3,6 +3,7 @@ import Hero from './(hero)/hero'
 import Checkboxes from './(checkboxes)/checkboxes'
 import Divider from './divider'
 import Images from './(images)/images'
+import Bonus from './(bonus)/bonus'
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
       <Images />
       
       <Divider />
+
+      <Bonus />
 
       <div className='mb-96'></div>
     </main>

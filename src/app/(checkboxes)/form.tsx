@@ -42,7 +42,7 @@ export default function Form() {
                 </div>
 
                 <div className="flex items-start p-2 m-3 bg-white rounded-md shadow-lg cursor-pointer">                    
-                    <input id="6" type="checkbox" className="mr-2 w-w-9 h-9"/>
+                    <input id="6" type="checkbox" className="mr-2 w-9 h-9"/>
                     <p onClick={() => handleClick("6")}>I want to get accelerated promotions and become a CXO in upcoming 5 years</p>
                 </div>
 
