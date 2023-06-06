@@ -15,7 +15,7 @@ export default function AdminPage() {
     
     date && writeDateToFile(date);
 
-    revalidatePath("/admin")   
+    revalidatePath("/")   
         
   }
 
