@@ -10,9 +10,7 @@ interface Props {
 
 export default function RunningOut({ targetDateTime }: Props) {
   const targetDate = parse(targetDateTime, "yyyy-MM-dd HH:mm:ss", new Date());
-  const [remainingTime, setRemainingTime] = useState(
-    getRemainingTime(targetDate)
-  );
+  const [remainingTime, setRemainingTime] = useState({ hours: "00", minutes: "00", seconds: "00" });
 
   useEffect(() => {
     const timer = setInterval(() => {

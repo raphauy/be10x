@@ -1,3 +1,5 @@
+"use client"
+
 import RunningOutFooter from "./runningOutFooter"
 
 interface Props{

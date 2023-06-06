@@ -14,6 +14,7 @@ export default function Home() {
 
 
 let date = readDateFromFile()
+console.log(date)
 if (!date)
   date= "2023-06-07 12:00:00"
 
@@ -23,6 +24,7 @@ if (!date)
     <main className="bg-porcelain-be10x">
 
       <div className="flex flex-col items-center justify-between min-h-screen">
+
         <Hero />
         
         <Checkboxes />
@@ -32,7 +34,7 @@ if (!date)
         <Images />
         
         <Divider />
-        
+
         <Bonus date={date} />
 
         <Divider />
@@ -52,11 +54,9 @@ if (!date)
         <Divider />
 
         <div className='mb-20'/>
-
       </div>
 
       <Footer date={date} />
-
     </main>
   )
 }

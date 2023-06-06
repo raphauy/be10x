@@ -42,7 +42,7 @@ export default function Mentors() {
             <div className="grid w-full grid-cols-1 gap-3 md:grid-cols-2">
                 <div>
                     <Image
-                    src="/1-1-1024x1024.png"
+                    src="/2-1-1024x1024.png"
                     width={1024}
                     height={724}
                     alt="certificate"
