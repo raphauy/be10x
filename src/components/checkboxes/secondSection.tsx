@@ -1,7 +1,7 @@
 "use client"
 
 import { FaAngleDoubleRight } from "react-icons/fa"
-import Become from "./become"
+import Become from "../become"
 
 export default function SecondSection() {
 

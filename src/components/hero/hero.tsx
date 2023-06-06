@@ -1,4 +1,3 @@
-import React from 'react'
 import Ticks from './ticks'
 import Calendar from './calendar'
 import Titles from './titles'
