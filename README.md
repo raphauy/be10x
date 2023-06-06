@@ -1,4 +1,4 @@
-# Nextjs site for Kiriti
+# Nextjs site with TailwindCSS for Kiriti
 
 ## Structure of components developed for the landing page
 - Landing (/src/app/page.tsx)
@@ -18,6 +18,7 @@
     
   - Bonus
     - Texts
+    - DocTypeComponent (loop)
     - RunningOut
     - Become
 
@@ -29,7 +30,7 @@
     - Become
 
   - FaqSection
-    - Faq(loop of Faq)
+    - Faq(loop)
     - Become
 
   - Footer
