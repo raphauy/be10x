@@ -10,7 +10,7 @@ interface Props{
 
 export default function Bonus({ date }: Props) {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center max-w-5xl'>
 
       <Texts />
 

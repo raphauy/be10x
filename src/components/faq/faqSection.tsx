@@ -31,7 +31,7 @@ export default function FaqSection() {
 
   return (
     <>
-      <div className='flex flex-col items-center w-full gap-4 px-3 mt-5 text-3xl font-bold text-grey-be10x'>
+      <div className='flex flex-col items-center w-full max-w-5xl gap-4 px-3 mt-5 text-3xl font-bold text-grey-be10x'>
         <p>FREQUENTLY ASKED QUESTIONS</p>
         {faqData.map((faq, index) => (
           <Faq key={index} question={faq.question} answer={faq.answer} />

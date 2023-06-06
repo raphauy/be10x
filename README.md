@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nextjs site for Kiriti
 
-## Getting Started
+## Structure of components developed for the landing page
+- Landing (/src/app/page.tsx)
+- components
+  - Hero
+    - Titles
+    - Ticks
+    - Calendar
+          
+  - Checkboxes
+    - Form
+    - SecondSection
 
-First, run the development server:
+  - Images
+    - Screens
+    - Become
+    
+  - Bonus
+    - Texts
+    - RunningOut
+    - Become
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+  - Certificate
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  - Mentors
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  - StillNotConvinced
+    - Become
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  - FaqSection
+    - Faq(loop of Faq)
+    - Become
 
-## Learn More
+  - Footer
+    - RunningOutFooter
 
-To learn more about Next.js, take a look at the following resources:
+## file: date.json
+date.json contains the date of the event that the landing deals with, based on that date the remaining time in the page counters is calculated.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Extra (admin section)
+I built a simple interface to change the date without having to do the deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Admin Screenshot](public/admin.png)

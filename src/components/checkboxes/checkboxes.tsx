@@ -6,7 +6,7 @@ export default function Checkboxes() {
 
 
   return (
-    <div className='w-full px-3 mb-5 mt-14'>
+    <div className='w-full max-w-5xl px-3 mb-5 mt-14'>
 
         <Form />
 

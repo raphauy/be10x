@@ -20,7 +20,7 @@ if (!date)
 
 
   return (
-    <main className="bg-porcelain-be10x">
+    <main className="w-full bg-porcelain-be10x">
 
       <div className="flex flex-col items-center justify-between min-h-screen">
         <Hero />

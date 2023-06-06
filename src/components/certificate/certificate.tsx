@@ -12,7 +12,7 @@ export default function Certificate() {
         <span className="text-orange-be10x"> AI Tools Expert Trainers </span>
         which brings a lot of credibility to your certificate & resume.
       </p>
-      <div className="flex justify-center m-3 sm:w-4/5 lg:w-3/5">
+      <div className="flex justify-center max-w-5xl m-3 sm:w-4/5 lg:w-3/5">
         <Image
           className="rounded-lg"
           src="/blue-professional-certificate-1024x724.png"
